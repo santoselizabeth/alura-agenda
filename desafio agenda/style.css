@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root {
+    --cor-primaria: rgb(238, 198, 248);
+    --cor-secundaria: #A3A3A3;
+    --cor-terciaria: #FFB050;
+    --cor-quarta: #4894FF;
+    --cor-quinta: #464646;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.menu-img img{
+    margin: 0 0.2em;
+}
+
+/* Parte 2*/
+main{
+    background-color: rgba(158, 222, 136, 0.401);
+    height: 100%;
+    padding-bottom: 1em;
+}
+
+.ola{
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.ola-p{
+    color: var(--cor-secundaria);
+}
+
+.hoje{
+    font-size: 18px;
+    padding: 1em;
+}
+
+.consulta{
+    margin: 1em;
+}
+
+.consulta-banner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 1em;
+    gap: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.consulta-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.consultachat{
+    margin-left: 6em;
+}
+
+.consulta-nome{
+    font-size: 15px;
+    color: var(--cor-quinta);
+    padding-bottom: 0.3em;
+    font-weight: 600;
+}
+
+.consulta-p{
+    font-size: 13px;
+    margin-left: 1em;
+    color: var(--cor-secundaria);
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.consulta-horario{
+    background-color: white;
+    padding: 1em;
+    font-size: 13px;
+    
+}
+
+.horario-botao{
+    background: var(--cor-terciaria);
+    padding: 1em 2em;
+    border-radius: 8px;
+    border: 1px solid var(--cor-terciaria);
+    width: 150px;   
+}
+
+.horario-botao a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.horario-botao2{
+    background: white;
+    padding: 1em 2em;
+    border-radius: 8px;
+    border: 1px solid gray;
+    width: 150px;   
+}
+
+.horario-botao2 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+
+.horario-endereco{
+    padding: 1em 10.3em;
+    background-color: var(--cor-quarta);
+    border-radius: 8px;
+    border: 1px solid var(--cor-quarta);
+}
+
+.horario-endereco a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;   
+}
+
+.amanha{
+    font-size: 18px;
+    padding: 1em;
+}
+
+.Quarta-Feira{
+    font-size: 18px;
+    padding: 1em;
+}
+
+.consulta-infos-p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
